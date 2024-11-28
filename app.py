@@ -1,14 +1,16 @@
 
+import streamlit as st
 
 import pickle
-
 # Provide the full paths to the files
 pipeline_path = 'C:/Users/HP/Desktop/Data Science Capstone Project/car_price_pipeline.pkl'
 model_path = 'C:/Users/HP/Desktop/Data Science Capstone Project/car_price_model.pkl'
 
 # Load the pipeline
-with open('car_price_pipeline.pkl', 'rb') as pipeline_file:
-    pipeline = pickle.load(pipeline_file)
+with open(pipeline_path, 'rb') as file:
+    pipeline = pickle.load(file)
+
+print("Pipeline loaded successfully.")
 
 # Load the model
 with open(model_path, 'rb') as model_file:
