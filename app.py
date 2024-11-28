@@ -41,3 +41,6 @@ if st.button("Predict Selling Price"):
     st.success(f"Predicted Selling Price: ₹{prediction[0]:,.2f}")
 
 
+
+
+
