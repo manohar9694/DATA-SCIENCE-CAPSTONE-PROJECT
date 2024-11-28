@@ -4,8 +4,6 @@ import streamlit as st
 import pickle
 import os
 
-
-
 print("Pipeline loaded successfully.")
 
 
@@ -14,8 +12,6 @@ print("Pipeline loaded successfully.")
 pipeline_path = 'C:\\Users\\HP\\Desktop\\Data Science Capstone Project\\car_price_pipeline.pkl'
 
 pipeline_path = 'car_price_pipeline.pkl'
-
-
 
 model_path = 'C:/Users/HP/Desktop/Data Science Capstone Project/car_price_model.pkl'
 
