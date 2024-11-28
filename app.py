@@ -11,7 +11,8 @@ print("Pipeline loaded successfully.")
 
 
 # Provide the full paths to the files
-pipeline_path = '/mount/src/data-science-capstone-project/car_price_pipeline.pkl'
+pipeline_path = 'C:\\Users\\HP\\Desktop\\Data Science Capstone Project\\car_price_pipeline.pkl'
+
 pipeline_path = 'car_price_pipeline.pkl'
 
 
